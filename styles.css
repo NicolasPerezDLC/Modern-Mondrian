@@ -9,7 +9,7 @@ body, html {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 10px 0px #8d8d8d;
+    box-shadow: 10px 10px 0px darkgray;
 }
 
 #toprow {
@@ -20,6 +20,11 @@ body, html {
     width: 290px;
     height: 290px;
     
+}
+
+#divider1 {
+    height: 290px;
+    width: 10px;
 }
 
 .aqua {
@@ -46,7 +51,36 @@ body, html {
     float: right;
 }
 
-#divider1 {
-    height: 290px;
+.grey {
+    background-color: #808080
+}
+
+.mediumbox {
+    width: 100px;
+    height: 140px;
+}
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3 {
+    width: 400px;
+    height: 10px;
+}
+
+#divider4 {
     width: 10px;
+    height: 100px;
+}
+
+#smallbox1 {
+    width: 50px;
+    height: 50px; 
+}
+
+#divider5 {
+    width: 50px;
+    height: 10px;
 }
