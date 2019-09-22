@@ -12,6 +12,7 @@ body, html {
     box-shadow: 10px 10px 0px darkgray;
 }
 
+/*boxes. Boxes*/
 #toprow {
     height: 290px;
 }
@@ -19,13 +20,67 @@ body, html {
 #bigbox {
     width: 290px;
     height: 290px;
-    
 }
+
+#largebox {
+    width: 170px;
+    height: 100px; 
+}
+
+#mediumbox {
+    width: 100px;
+    height: 140px;
+}
+
+#mediumbox2 {
+    width: 100px;
+    height: 65px; 
+}
+
+#mediumbox3 {
+    width: 100px;
+    height: 100px; 
+}
+
+#smallbox1 {
+    width: 50px;
+    height: 100px; 
+}
+
+/*Floats. Float*/
+
+.right {
+    float: right;
+}
+
+/*divders. dividers*/
 
 #divider1 {
     height: 290px;
     width: 10px;
 }
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3 {
+    width: 400px;
+    height: 10px;
+}
+
+#divider4 {
+    width: 10px;
+    height: 100px;
+}
+
+#divider5 {
+    width: 50px;
+    height: 10px;
+}
+
+/*colors. color */
 
 .aqua {
     background-color: aqua;   
@@ -47,40 +102,22 @@ body, html {
     background-color: royalblue;   
 }
 
-.right {
-    float: right;
+.turquoise {
+    background-color: turquoise
+}
+
+.teal {
+    background-color: teal
+}
+
+.cyan {
+    background-color: #0097a7
+}
+
+.lightbluedarken {
+    background-color: #01579b
 }
 
 .grey {
     background-color: #808080
-}
-
-.mediumbox {
-    width: 100px;
-    height: 140px;
-}
-
-#divider2 {
-    height: 10px;
-    width: 100px;
-}
-
-#divider3 {
-    width: 400px;
-    height: 10px;
-}
-
-#divider4 {
-    width: 10px;
-    height: 100px;
-}
-
-#smallbox1 {
-    width: 50px;
-    height: 50px; 
-}
-
-#divider5 {
-    width: 50px;
-    height: 10px;
 }
